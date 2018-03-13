@@ -1,7 +1,7 @@
 close all
 clear
 %% Step 1: Detect Candidate Text Regions Using MSER
-colorImage = imread('test5.jpg');
+colorImage = imread('test1.jpg');
 I = rgb2gray(colorImage);
 
 % Detect MSER regions.
