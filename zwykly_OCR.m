@@ -3,7 +3,7 @@ close all
 clear
 
 %%
-colorImage = imread('test1.jpg');
+colorImage = imread('test4.jpg');
 I = rgb2gray(colorImage);
 
 ocrtxt = ocr(I);
